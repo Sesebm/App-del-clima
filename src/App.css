@@ -61,3 +61,7 @@ button:hover{
   border: #2B4865 solid 2px;
   border-radius: 20px;
 }
+
+.cargando{
+  font-size: 80px;
+}

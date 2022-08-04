@@ -73,7 +73,7 @@ function App() {
       else
   return (
     <div className="App">
-      <p>no cargado</p>
+      <p className='cargando'>no cargado</p>
     </div>
   )
 }
