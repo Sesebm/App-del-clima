@@ -1,0 +1,63 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+
+.App{
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 2px;
+  background-color: #256D85;
+  width: 60vw;
+  height: 60vh;
+  margin: auto;
+  margin-top: 10vh;
+  padding: 5%;
+  text-align: center;
+  border-radius: 20px;
+  color: white;
+
+}
+.App_first{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;  
+  justify-content: center;
+  grid-gap: 15%;
+  place-items: center;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+
+}
+.App_second{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  place-items: center;
+
+  
+}
+body{
+  background-color: #1b4e88;
+}
+button{
+  border-radius: 10px;
+  transition: all ease 300ms;
+}
+button:hover{
+  background-color: #2B4865;
+  color: white;
+  transform: scale(1.05,1.05);
+  transition: all ease 300ms;
+}
+.Mediano{
+  font-size: 32px;
+
+
+}
+
+.App_second_card{
+  background-color: #1b4e88;
+  padding: 5%;
+  border: #2B4865 solid 2px;
+  border-radius: 20px;
+}
